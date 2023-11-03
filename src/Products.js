@@ -27,7 +27,7 @@ function Products() {
         return (
           <div
             key={item.id}
-            className="w-9/12   my-4 flex flex-col justify-center items-center border-2 border-black"
+            className="w-9/12 max-w-sm mx-2   my-4 flex flex-col justify-center items-center border-2 border-black"
           >
             <div className=" w-full h.full flex justify-center items-center  ">
               <img src={item.image_url} alt="" className="w-3/6 h-3/6" />
